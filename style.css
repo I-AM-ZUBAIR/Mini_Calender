@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .date-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+    min-width: 180px;
+  }
+  
+  .day {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .month-year {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+  }
+  
